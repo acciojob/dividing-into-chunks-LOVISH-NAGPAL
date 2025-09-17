@@ -1,6 +1,4 @@
 const arr = [1, 2, 3, 4, 1, 0, 2, 2];
-
-const arr = [1, 2, 3, 4, 1, 0, 2, 2];
 const output=[]
 const divide = (arr, n) => {
 	let arr2=[]
@@ -32,8 +30,7 @@ if(arr2.reduce((i,e)=>i+e)<=n){
 }
 }
 };
-divide(arr,5)
-console.log(output)
+
 
 
 
